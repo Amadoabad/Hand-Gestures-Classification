@@ -6,5 +6,6 @@ A hand gestures tracking and classification program.
 1. The classification itself, duh !!
 
 ### Extras
-1. Control ur presentations with it.
+1. Control your presentations with it.
 2. Make a GUI.
+
