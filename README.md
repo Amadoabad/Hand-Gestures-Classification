@@ -36,7 +36,8 @@ conda activate hand-recognition
 
 ### 3. Have fun with either the notebook or the main.py file
 
-jupyter notebook playground.ipynb
+    jupyter notebook playground.ipynb
+    python main.py
 
 ## 🎯 Future Plans
 
