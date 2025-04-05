@@ -1,14 +1,57 @@
-# Hand-Gestures-Classification
-A hand gestures tracking and classification program.
+# ✋ Hand Recognition Using MediaPipe
 
-## TODO
-### Must do
-1. The classification itself, duh !!
+This project uses [MediaPipe](https://mediapipe.dev/) to perform real-time hand detection and recognition. It identifies hand landmarks, tracks movement, and classifies gestures. The end goal is to use this model to build a **presentation control app**, allowing users to move between slides using simple hand gestures — no clicker needed!
 
-### Extras
-1. Control your presentations with it.
-2. Make a GUI.
-3. Test XGboost
-4. Test fixing the under-represented class ('call')
+---
 
+## 🚀 Features
 
+- Real-time hand tracking using MediaPipe  
+- Detection of 21 hand landmarks  
+- Custom gesture recognition using angles and distances  
+- Easily extendable to support more gestures and actions  
+
+---
+
+## 📁 Project Files
+
+- `playground.ipynb` – Main notebook for hand tracking and gesture classification  
+- `requirements.yml` – Conda environment file to recreate the setup  
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/hand-recognition-app.git
+cd hand-recognition-app
+```
+
+### 2. Create and activate the environment
+
+conda env create -f requirements.yml
+conda activate hand-recognition
+
+### 3. Launch the notebook
+
+jupyter notebook playground.ipynb
+
+## 🎯 Future Plans
+
+    ✅ Build a presentation controller app to navigate slides using gestures
+
+    ✅ Add a simple GUI for easier usage
+
+    ⏳ Add more gestures (e.g., zoom, pointer) and custom action mapping
+
+## 🖼️ Sample Output
+
+![Hand Recognition Demo](misc/fun.gif)
+
+## 🤝 Contributing
+
+Pull requests are welcome! Feel free to fork this project and suggest improvements or additional features.
+
+>Made with ❤️ using Python, OpenCV, and MediaPipe
