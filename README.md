@@ -34,7 +34,7 @@ cd hand-recognition-app
 conda env create -f requirements.yml
 conda activate hand-recognition
 
-### 3. Launch the notebook
+### 3. Have fun with either the notebook or the main.py file
 
 jupyter notebook playground.ipynb
 
