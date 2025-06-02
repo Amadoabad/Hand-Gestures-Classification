@@ -48,24 +48,24 @@ During experimentation in the `playground.ipynb` notebook, several machine learn
 | Model                | Validation Accuracy | Validation F1|
 |----------------------|--------------------|--------------|
 | KNN                  | 0.9633             | 0.9633       |
-| Random Forest        | 0.9711             | 0.9711       |
+| **Random Forest**    | **0.9711**         | **0.9711**   |
 | SVC                  | 0.9723             | 0.9723       |
 | XGBoost              | 0.9805             | 0.9806       |
-| **LGBM**             | **0.9813**         | **0.9814**   |
+| LGBM                 | 0.9813             | 0.9814       |
 | Voting Classifier    | 0.9832             | 0.9833       |
 | Stacking Classifier  | 0.9848             | 0.9848       |
 
 ![PrecissionVsRecall](misc/precision_score-recall_score.png)
 
-All ensemble models (Random Forest, SVC, XGBoost, LGBM, Voting, and Stacking) performed exceptionally well, with the stacking classifier slightly outperforming or matching the best results on both validation and peroforming consistantly good on test sets with **0.984** F1 and Accuracy score. But we opted to choose The LightGBM Model. Since it falls in a middle ground between complexity and performance. It will run fast and still gives solid results.
+All ensemble models (Random Forest, SVC, XGBoost, LGBM, Voting, and Stacking) performed exceptionally well, with the stacking classifier slightly outperforming or matching the best results on both validation and peroforming consistantly good on test sets with **0.985** F1 and Accuracy score. But we opted to choose The **Random Forest** Model. Since it falls in a middle ground between complexity and performance. It will run fast and still gives solid results.
 
 ---
 
 ## 🎯 Future Plans
 
-    ✅ Build a presentation controller app to navigate slides using gestures
+    ⏳ Build a presentation controller app to navigate slides using gestures
 
-    ✅ Add a simple GUI for easier usage
+    ⏳ Add a simple GUI for easier usage
 
     ⏳ Add more gestures (e.g., zoom, pointer) and custom action mapping
 
